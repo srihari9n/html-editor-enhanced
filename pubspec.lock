@@ -89,11 +89,12 @@ packages:
   flutter_inappwebview:
     dependency: "direct main"
     description:
-      name: flutter_inappwebview
-      sha256: f73505c792cf083d5566e1a94002311be497d984b5607f25be36d685cf6361cf
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.7.2+3"
+      path: "."
+      ref: "v5.4.3+7"
+      resolved-ref: ee1b0d7ff754a49e9f995c68505da3556b9c830d
+      url: "git@github.com:srihari9n/flutter_inappwebview.git"
+    source: git
+    version: "5.4.3+7"
   flutter_keyboard_visibility:
     dependency: "direct main"
     description:
