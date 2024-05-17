@@ -1120,7 +1120,8 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                               newColor = color;
                             },
                             title: Text('Choose a Color',
-                                style: Theme.of(context).textTheme.headline6),
+                                style:
+                                    Theme.of(context).textTheme.headlineSmall),
                             width: 40,
                             height: 40,
                             spacing: 0,
@@ -1872,7 +1873,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                                               style: TextStyle(
                                                   color: Theme.of(context)
                                                       .textTheme
-                                                      .bodyText1
+                                                      .bodySmall
                                                       ?.color)),
                                         ),
                                       ],
@@ -1979,7 +1980,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                                               style: TextStyle(
                                                   color: Theme.of(context)
                                                       .textTheme
-                                                      .bodyText1
+                                                      .bodySmall
                                                       ?.color)),
                                         ),
                                         suffixIcon: result != null
@@ -2131,7 +2132,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                                               style: TextStyle(
                                                   color: Theme.of(context)
                                                       .textTheme
-                                                      .bodyText1
+                                                      .bodySmall
                                                       ?.color)),
                                         ),
                                         suffixIcon: result != null
@@ -2283,7 +2284,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                                               style: TextStyle(
                                                   color: Theme.of(context)
                                                       .textTheme
-                                                      .bodyText1
+                                                      .bodySmall
                                                       ?.color)),
                                         ),
                                         suffixIcon: result != null
@@ -2435,7 +2436,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                                               style: TextStyle(
                                                   color: Theme.of(context)
                                                       .textTheme
-                                                      .bodyText1
+                                                      .bodySmall
                                                       ?.color)),
                                         ),
                                         suffixIcon: result != null
@@ -2673,7 +2674,7 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                                 child: SingleChildScrollView(
                                   child: DataTable(
                                     columnSpacing: 5,
-                                    dataRowHeight: 75,
+                                    dataRowMinHeight: 75,
                                     columns: const <DataColumn>[
                                       DataColumn(
                                         label: Text(
